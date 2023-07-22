@@ -1,0 +1,107 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #EBEDEF;
+    background-size: 20%;
+    margin: 0;
+    padding: 0;
+    background-image:url(./fondo.jpg);
+    background-size: 100%;
+
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+
+}
+h2{
+    padding-left: 50px;
+    font-size: 30px;
+    
+}
+#contenedor { 
+    width: 600px;
+    font-size: 20px;
+    padding-left: 20px; /* Sangría de 20px en el lado izquierdo */
+    background-color:rgba(255, 255, 255, 0.5);
+    text-indent: 30px;
+}
+nav{
+    display: flex;
+    justify-content:center;
+    
+   
+    color: #EAEDED;
+    
+    
+}
+nav ul {
+   
+    list-style:none;
+    margin-top: -5px;
+    margin-bottom: 1px;
+    display: flex;
+    
+    
+}
+nav li {
+    display: flex;
+    background-color: none;
+    margin:50px ;
+    
+    
+    }
+
+
+.menu li button:hover{
+    background-color: #00152c;
+    border: 0;
+    border-radius: 4%;
+
+
+
+}
+.boton {
+    background-color: #FF7558 ; /* Color de fondo */
+    color: #ffffff; /* Color del texto */
+    border: none; /* Elimina el borde */
+    padding: 12px 24px; /* Espaciado interno */
+    border-radius: 25px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3); /* Sombra para efecto 3D */
+    transition: background-color 0.3s ease-in-out; /* Transición suave al cambiar el color de fondo */
+}
+.boton:hover{
+    border-radius:10px;
+    outline:none;
+    text-decoration: none;
+    background-color: #FF7558;
+
+}
+.listas-container {
+    display: flex; /* Hace que los elementos dentro del contenedor sean elementos en línea flexibles */
+    /*justify-content: space-between;  Espacia las listas de manera uniforme a lo largo del contenedor */
+}
+.listas-container ul {
+    list-style: none; /* Elimina las viñetas de las listas */
+    padding: 0; /* Elimina el espacio interior del ul */
+    margin: 0; /* Elimina el espacio exterior del ul */
+}
+.texto{
+    position:absolute;
+    width: 80%;
+    padding-left: 20px;
+    left: 50%;
+    bottom: 9%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgba(255, 255, 255, 0.5);
+   
+
+    float:right;
+    
+}
+
+.oculto{
+    display: none;
+}
