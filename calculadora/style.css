@@ -1,0 +1,110 @@
+
+body {
+    background-color: #D6EAF8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image:url(./calculadora.jpg);
+    background-size: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:hover, select:hover {
+    border-color: #666;
+}
+
+input:focus, select:focus {
+    border-color: #007bff;
+    box-shadow: 0px 0px 5px #007bff;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    outline: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resultado {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+nav{
+    display: flex;
+    justify-content:center;
+    
+   
+    color: #EAEDED;
+    
+    
+}
+nav ul {
+   
+    list-style:none;
+    margin-top: -5px;
+    margin-bottom: 1px;
+    display: flex;
+    
+    
+}
+nav li {
+    display: flex;
+    background-color: none;
+    margin:50px ;
+    
+    
+    }
+
+
+.menu li button:hover{
+    background-color: #00152c;
+    border: 0;
+    border-radius: 4%;
+}
+#edad{
+    width: 275px;
+}
+#peso{
+    width: 275px;
+}
+#altura{
+    width: 275px;
+}

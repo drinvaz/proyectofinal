@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de Calorías</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            
+            <li><a href="../index.html">
+                <button class="boton">Inicio</button>
+            </a></li>
+    
+                <li><a href="calculadora.html">
+                    <button class="boton">Calculadora</button>
+                </a></li>
+    
+                <li><a href="../pagina/recetas.html">
+                    <button class="boton">Recetas</button>
+                </a></li>
+    
+                <li><button href="#" class="boton">contactos</button></li>
+                
+        </ul>
+    </nav>
+    <h1>Calculadora de Calorías</h1>
+    <div class="form-container">
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad">
+
+        <label for="genero">Género:</label>
+        <select id="genero">
+            <option value="hombre">Hombre</option>
+            <option value="mujer">Mujer</option>
+        </select>
+
+        <label for="peso">Peso (kg):</label>
+        <input type="number" id="peso">
+
+        <label for="altura">Altura (cm):</label>
+        <input type="number" id="altura">
+
+        <label for="actividad">Nivel de Actividad:</label>
+        <select id="actividad">
+            <option value="Sedentario">Sedentario (poco o ningún ejercicio)</option>
+            <option value="Ligero">Ligero (ejercicio ligero / deporte 1-3 días por semana)</option>
+            <option value="Moderado">Moderado (ejercicio moderado / deporte 3-5 días por semana)</option>
+            <option value="Intenso">Intenso (ejercicio intenso / deporte 6-7 días por semana)</option>
+            <option value="Muy Intenso">Muy intenso (ejercicio físico diario y trabajo físico)</option>
+        </select>
+
+        <button onclick="calcularCalorias()">Calcular</button>
+    </div>
+
+    <p id="resultado"></p>
+    <script src="script.js"></script>
+</body>
+</html>
