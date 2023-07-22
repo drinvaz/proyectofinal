@@ -48,12 +48,14 @@ function agregarReceta() {
         //Creando un nuevo objeto receta de cada receta ingresada
         var receta =new Receta(nombreReceta,ingredientesReceta,instruccionesReceta)
         listaRecetas.push(receta);
+
         nuevaRecetaDiv.appendChild(nombreElement);
         nuevaRecetaDiv.appendChild(ingredientesElement);
         nuevaRecetaDiv.appendChild(instruccionesElement);
         nuevaRecetaDiv.appendChild(botonCerrar)
 
         recetasDiv.appendChild(nuevaRecetaDiv);
+        
         function devolver (){
           return receta.nombreReceta;
         }
@@ -72,6 +74,7 @@ function agregarReceta() {
         document.getElementById("nombre").value = "";
         document.getElementById("ingredientes").value = "";
         document.getElementById("instrucciones").value = "";
+        
         // Aquí hago que luego de agregar la receta los input se vuelvan a hacer invisibles
         inputIngredientes.style.display="none"
 inputInstrucciones.style.display="none"
